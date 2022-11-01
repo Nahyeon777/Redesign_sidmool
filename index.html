@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>시드물-피부의 고향</title>
+    <link href="images/short_icon.png" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <!-- Noto sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- 나눔 명조 -->
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-myeongjo.css" rel="stylesheet">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/progressbar.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="index.html"><img src="images/sidmool_logo_white.png" alt="logo"></a>
+        </div>
+
+        <div class="nav">
+            <!-- 카테고리~고객문의 -->
+            <div class="nav_left">
+                <ul>
+                    <li class="menu_list">
+                        <a href="#" class="menu_item">제품보기</a>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="#">기능별</a></li>
+                                <li><a href="#">성분라인별</a></li>
+                                <li><a href="#">고민별</a></li>
+                                <li><a href="#">내츄럴 99</a></li>
+                                <li><a href="#">시리즈별</a></li>
+                                <li><a href="#">기타</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu_list">
+                        <a href="#" class="menu_item">시드물</a>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="#">개요 / 연혁 / 소개</a></li>
+                                <li><a href="#">오시는 길</a></li>
+                                <li><a href="#">개발 및 품질관리</a></li>
+                                <li><a href="#">시드물 통신</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu_list">
+                        <a href="#" class=" menu_item">제품문의</a>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="#">제품 전체보기</a></li>
+                                <li><a href="#">사용방법</a></li>
+                                <li><a href="#">성분사전</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu_list">
+                        <a href="#" class="menu_item">고객센터</a>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="#">시드물 공지사항</a></li>
+                                <li><a href="#">자주묻는 질문</a></li>
+                                <li><a href="#">미확인 입금</a></li>
+                                <li><a href="#">1:1 문의</a></li>
+                                <li><a href="#">해외배송 게시판</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 로그인, 회원가입, 마이페이지, 글로벌 시드물 -->
+            <div class="nav_right">
+                <ul>
+                    <li class="menu_list"><a href="#" class="menu_item">로그인</a></li>
+                    <li class="menu_list"><a href="#" class="menu_item">회원가입</a></li>
+                    <li class="menu_list">
+                        <a href="#" class="menu_item">마이페이지</a>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="#">주문·배송</a></li>
+                                <li><a href="#">위시리스트</a></li>
+                                <li><a href="#">할인쿠폰</a></li>
+                                <li><a href="#">적립금</a></li>
+                                <li><a href="#">시드물페이</a></li>
+                                <li><a href="#">나의 게시글</a></li>
+                                <li><a href="#">개인정보관리</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">
+                        <img src="images/global.png" alt="global">
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="bg-txt">
+            <div class="wrap">
+                <div class="top">
+                    <span>피부의 고향</span>
+                    <div class="shape">
+                        <div class="line"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <img src="images/sidmool_logo_white_none.png" alt="logo">
+                    <p>Original Natural Cosmetics Brand</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 검색창 -->
+    <div class="search">
+        <div class="wrap">
+            <div class="top">
+                <div class="input">
+                    <div class="icon">
+                        <a href="#"><img src="images/search_icon.png" alt="search-icon"></a>
+                    </div>
+                    <input type="text" id="search_name" placeholder="제품명을 입력해주세요.">
+                </div>
+                <div class="search-box">
+                    <button type="button">SEARCH</button>
+                </div>
+            </div>
+        </div>
+        <div class="hash">
+            <div class="hash-wrap">
+                <ul>
+                    <li><a href="#"># EGF</a></li>
+                    <li><a href="#"># 앰플</a></li>
+                    <li><a href="#"># 수분크림</a></li>
+                    <li><a href="#"># 병풀</a></li>
+                    <li><a href="#"># 판테놀</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- new -->
+    <div class="new">
+        <div class="wrap">
+            <div class="content">
+                <h3>NEW</h3>
+                <p>고객님의 의견을 반영하여 만든 새로운 신상품</p>
+            </div>
+        </div>
+        <div class="w-banner slick">
+            <div class="slide-item">
+                <a href="index.html">
+                    <img src="images/wide_banner 1.jpg" alt="banner">
+                </a>
+            </div>
+            <div class="slide-item">
+                <a href="index.html">
+                    <img src="images/wide_banner 2.jpg" alt="banner">
+                </a>
+            </div>
+            <div class="slide-item">
+                <a href="index.html">
+                    <img src="images/wide_banner 3.png" alt="banner">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 고민별 추천템 -->
+    <div class="gomin">
+        <div class="wrap">
+            <div class="content">
+                <h3>고민별 추천템</h3>
+            </div>
+        </div>
+        <div class="gomin-tab">
+            <ul>
+                <li><a href="#"># 속건성(수부지)</a></li>
+                <li><a href="#"># AC스팟</a></li>
+                <li><a href="#"># 모공관리</a></li>
+                <li><a href="#"># 피지관리</a></li>
+                <li><a href="#"># 주름개선</a></li>
+            </ul>
+        </div>
+        <div class="gomin-tab-content">
+            <div class="item">
+                <img src="images/product/gomin commend_gunseng 1.jpg" alt="gunseng">
+                <div class="txt">
+                    <div class="top">
+                        <div class="title">
+                            <span>세라마이드 앰플 12ml</span>
+                        </div>
+                        <div class="bookmark">
+                            <img class="b-origin" src="images/bookmark.png" alt="bookmark">
+                            <img class="b-hover" src="images/bookmark_color.png" alt="bookmark">
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <span>어떤 건조함도 막아내는 팔만 장력</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/product/gomin commend_gunseng 2.jpg" alt="gunseng">
+                <div class="txt">
+                    <div class="top">
+                        <div class="title">
+                            <span>이베데논 로션</span>
+                        </div>
+                        <div class="bookmark">
+                            <img class="b-origin" src="images/bookmark.png" alt="bookmark">
+                            <img class="b-hover" src="images/bookmark_color.png" alt="bookmark">
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <span>세월의 흐름으로 생기는 피부 고민을 위한 제품</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/product/gomin commend_gunseng 3.jpg" alt="gunseng">
+                <div class="txt">
+                    <div class="top">
+                        <div class="title">
+                            <span>이베데논 토너</span>
+                        </div>
+                        <div class="bookmark">
+                            <img class="b-origin" src="images/bookmark.png" alt="bookmark">
+                            <img class="b-hover" src="images/bookmark_color.png" alt="bookmark">
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <span>오직 어머니의 느슨해진 탄력 고민을 위한 제품</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/product/gomin commend_gunseng 4.jpg" alt="gunseng">
+                <div class="txt">
+                    <div class="top">
+                        <div class="title">
+                            <span>D-판테놀 장벽 크림</span>
+                        </div>
+                        <div class="bookmark">
+                            <img class="b-origin" src="images/bookmark.png" alt="bookmark">
+                            <img class="b-hover" src="images/bookmark_color.png" alt="bookmark">
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <span>영국산 판테놀 15% REAL 장벽강화</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 오늘 추천템 -->
+    <div class="today">
+        <div class="wrap">
+            <div class="content">
+                <h3>오늘의 추천템</h3>
+                <p>시드물에서 추천드리는 오늘의 화장품</p>
+            </div>
+        </div>
+        <div class="today-tab">
+            <ul>
+                <li><a href="#">스킨·로션</a></li>
+                <li><a href="#">수분 크림</a></li>
+                <li><a href="#">에센스</a></li>
+                <li><a href="#">앰플</a></li>
+                <li><a href="#">바디·헤어</a></li>
+                <li><a href="#">마스크팩</a></li>
+                <li><a href="#">기타</a></li>
+            </ul>
+        </div>
+        <div class="today-tab-content">
+            <div class="item">
+                <img src="images/product/today/1.png" alt="today">
+                <div class="txt">
+                    <div class="top">
+                        <div class="title">
+                            <span>아크바이 TM 클린 페이스 스킨</span>
+                        </div>
+                        <div class="bookmark">
+                            <img class="b-origin" src="images/bookmark.png" alt="bookmark">
+                            <img class="b-hover" src="images/bookmark_color.png" alt="bookmark">
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <span>For 민감성 피부 / 편하고건강한 스킨토너 </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/product/today/2.png" alt="today">
+                <div class="txt">
+                    <div class="top">
+                        <div class="title">
+                            <span>모공 스킨토너 150ml</span>
+                        </div>
+                        <div class="bookmark">
+                            <img class="b-origin" src="images/bookmark.png" alt="bookmark">
+                            <img class="b-hover" src="images/bookmark_color.png" alt="bookmark">
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <span>내츄럴 바하 5% 적용 모공 / 각질관리</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/product/today/3.png" alt="today">
+                <div class="txt">
+                    <div class="top">
+                        <div class="title">
+                            <span>파하 클렌징 토너 200ml</span>
+                        </div>
+                        <div class="bookmark">
+                            <img class="b-origin" src="images/bookmark.png" alt="bookmark">
+                            <img class="b-hover" src="images/bookmark_color.png" alt="bookmark">
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <span>놀랍도록 순하고, 기능이 좋은 PHA 성분 </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/product/today/4.png" alt="today">
+                <div class="txt">
+                    <div class="top">
+                        <div class="title">
+                            <span>카렌듈라 2종 세트</span>
+                        </div>
+                        <div class="bookmark">
+                            <img class="b-origin" src="images/bookmark.png" alt="bookmark">
+                            <img class="b-hover" src="images/bookmark_color.png" alt="bookmark">
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <span>건성 / 민감성 피부를 위한 순한 성분 카렌듈라</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="add-wrap">
+            <a href="#" class="add"></a>
+        </div>
+    </div>
+
+    <!-- 고객 추천 -->
+    <div class="recommend">
+        <div class="r-wrap">
+            <div class="title">
+                <h3>고객리뷰</h3>
+                <span>COSTOMER REVIEW</span>
+                <p>고객님들께서 남겨주신 진짜 사용후기 입니다.</p>
+                <p>
+                    배너를 클릭하여 고객님들이 직접 남겨주신 자세한 포토후기를 확인해보세요. 
+                </p>
+            </div>
+            <div class="content">
+                <div class="item-wrap">
+                    <a href="#" class="item">
+                        <div class="hover-stick"></div>
+                        <div class="item-content">
+                            <div class="pic">
+                                <img src="images/review1.png" alt="review">
+                            </div>
+                            <div class="txt">
+                                <div class="product-title">
+                                    <p>[제로마진] 스킨소스 트라넥사믹 10 앰플 12ml</p>
+                                </div>
+                                <div class="review">
+                                    <span>
+                                        여름되면 지성이 되는 수부지로...사실 테스트 해볼겸 큰 기대를 안고 샀던건데요...피부에 끈적임 없이 촉촉하고 깔끔하게 스며들어서 너무 좋아요.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="item">
+                        <div class="hover-stick"></div>
+                        <div class="item-content">
+                            <div class="pic">
+                                <img src="images/review2.png" alt="review">
+                            </div>
+                            <div class="txt">
+                                <div class="product-title">
+                                    <p>[제로마진] 스킨소스 트라넥사믹 10 앰플 12ml</p>
+                                </div>
+                                <div class="review">
+                                    <span>
+                                        여름되면 지성이 되는 수부지로...사실 테스트 해볼겸 큰 기대를 안고 샀던건데요...피부에 끈적임 없이 촉촉하고 깔끔하게 스며들어서 너무 좋아요.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="item">
+                        <div class="hover-stick"></div>
+                        <div class="item-content">
+                            <div class="pic">
+                                <img src="images/review3.png" alt="review">
+                            </div>
+                            <div class="txt">
+                                <div class="product-title">
+                                    <p>[제로마진] 스킨소스 트라넥사믹 10 앰플 12ml</p>
+                                </div>
+                                <div class="review">
+                                    <span>
+                                        여름되면 지성이 되는 수부지로...사실 테스트 해볼겸 큰 기대를 안고 샀던건데요...피부에 끈적임 없이 촉촉하고 깔끔하게 스며들어서 너무 좋아요.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 캠페인 -->
+    <div class="campaign">
+        <div class="wrap">
+            <a href="#"><img src="images/campaign.png" alt="campaign"></a>
+            
+            <div class="content">
+                <h3>시드물의 자연사랑 캠페인</h3>
+                <div class="txt-wrap">
+                    <div class="txt-content">
+                        <div class="p-content">
+                            <p>시드물은 동물을 사랑하고 자연을 보호합니다.</p>
+                            <p>사용 후 공병을 회수 받아서 자연이 부담이되지 않도록
+                                다양하게 활용하여 처리하겠습니다.</p>
+                        </div>
+                        <div class="compaign-add">
+                            <a href="#">시드물이야기 더보기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 시드물 장점 -->
+    <div class="advantage">
+        <div class="wrap">
+            <ul>
+                <li>
+                    <img src="images/leaf.png" alt="leaf">
+                    <img src="images/advantage1.png" alt="leaf">
+                    <span>국제표준 인증</span>
+                </li>
+                <li>
+                    <img src="images/leaf.png" alt="leaf">
+                    <img src="images/advantage2.png" alt="leaf">
+                    <span>동물사랑 자연보호</span>
+                </li>
+                <li>
+                    <img src="images/leaf.png" alt="leaf">
+                    <img src="images/advantage3.png" alt="leaf">
+                    <span>피부과 테스트 완료</span>
+                </li>
+                <li>
+                    <img src="images/leaf.png" alt="leaf">
+                    <img src="images/advantage4.png" alt="leaf">
+                    <span>식물 성분 안정화시스템</span>
+                </li>
+                <li>
+                    <img src="images/leaf.png" alt="leaf">
+                    <img src="images/advantage5.png" alt="leaf">
+                    <span>반품 무조건폐기</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        
+    </div>
+</body>
+</html>
